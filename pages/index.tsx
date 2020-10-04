@@ -1,5 +1,4 @@
 import { GetStaticProps } from 'next'
-import '../styles/Home.module.css'
 
 export default function Home({ user }) {
   return (
@@ -29,7 +28,7 @@ export default function Home({ user }) {
 
       <div className="container">
         <img src={user.avatar_url} alt="" />
-        <h1 id="nameuser">{user.login}</h1>
+        <h1>{user.login}</h1>
         <a href={user.html_url}><button id="btnperfil">Ver Perfil</button></a>
       </div>
     </>
