@@ -31,6 +31,7 @@ export default function Home({ user }) {
         <h1>{user.login}</h1>
         <a href={user.html_url}><button id="btnperfil">Ver Perfil</button></a>
       </div>
+      
     </>
   )
 }
