@@ -33,10 +33,10 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 SSG (Static Site Generation) e suas propriedades, que vêm presentes nas últimas versões do Next.js, torna muito melhor a experiência do usuário, já que a página não precisa ser toda carregada sempre que o lado cliente faz uma requisição.
 
-````
+
 Mesmo com esse nome, as páginas estáticas se apresentam bem dinâmicas e essa é a “mágica” que o Next.js nos proporciona. Usando as funções “getStaticProps” e “getStaticPaths” e as propriedades “fallback” e “revalidate”, a geração de páginas estáticas é feita de forma dinamizada, facilita o lado dos desenvolvedores e otimiza o acesso dos clientes.
 
-````
+<hr />
 
 - getStaticProps
 
